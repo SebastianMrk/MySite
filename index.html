@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="pl">
+    <meta charset="utf-8">
+    <title>.SebastianMrukowicz | Wizytówka</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link href="https://fonts.googleapis.com/css?family=Advent+Pro:200|Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
+            <a class="navbar-brand" href="index.html"><i class="icon-beer  d-inline-block align-middle"
+                    alt="logo">.Sebastian Mrukowicz</a></i>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu"
+                aria-controls="mainmenu" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainmenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a id="link1" href="#" class="nav-link"> O mnie </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"> Kontakt </a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <main>
+        <article>
+            <section class="cover">
+                <div class="welcome ani">Hello!</div>
+                <button class="mycv">Download my CV</button>
+            </section>
+
+            <section id="omnie">
+                <div class="big">
+                    <div class="bcard">
+                        <div class="about">
+                        <img class="profil" src="img/profil.jpg" alt="profil_picture">
+                        <h1>Kim Jestem?</h1>
+                        <p>
+                        Cześć! Nazywam się Sebastian. Mam 23 lata i kocham podrózowć, odwiedziłem aktualnie 24 kraje
+                        i nie planuję na tym kończyć. Od pewnego czasu interesuję się programowaniem i chciałbym pewnego
+                        dnia powiązać z tym moją przyszłość. Mam nadzieję ze w przyszłości na tej stronie znajdzie się
+                        wiele ciekawych projektów.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+        </article>
+
+
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
+
+    <script>
+        jQuery(function ($) {
+            $.scrollTo(0);
+
+            $('#link1').click(function () {
+                $.scrollTo($('#omnie'), 600);
+            });
+            $('#link2').click(function () {
+                $.scrollTo($('#kontakt'), 600);
+            });
+        })
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

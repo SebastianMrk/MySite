@@ -1,0 +1,72 @@
+.cover {
+    background: url(img/cover.jpg) no-repeat center/cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-attachment: fixed;
+}
+
+
+.welcome {
+    position: relative;
+    left: 14px;
+    font-size: 78px;
+    text-align: center;
+    color: silver;
+    letter-spacing: 0.5em;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+button.mycv {
+    display: flex;
+    justify-content: center;
+    padding: 0 24px;
+    margin-top: 16px;
+    font-size: 20px;
+    color: silver;
+    letter-spacing: 0.2em;
+
+}
+
+button {
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50px;
+
+}
+
+button.mycv:hover {
+    background-color: white;
+    opacity: 0.6;
+    color: black;
+}
+
+.big {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: calc(100vh - 57.92px);
+    background: url(img/s1_background.jpg) no-repeat center/cover;
+    /* Photo by Z S on Unsplash*/
+}
+
+.bcard {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 60vw;
+    height: 40vh;
+    background-color: red;
+    opacity: 0.6;
+}
+
+.profil {
+    display: inline-block;
+    width: 260px;
+    height: 300px;
+}
